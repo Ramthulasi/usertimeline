@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/ubuntu/user-timeline/
+source venv/bin/activate
+nohup sudo -u sawtooth ./app/pyprocessor/user-tp -vvv > transactionPro.log &

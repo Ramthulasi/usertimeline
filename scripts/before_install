@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/ubuntu/user-timeline/
+zip -r /home/ubuntu/backup/backup-$(date +"%m-%d-%Y").zip *
+rm -rf user-timeline
+mkdir user-timeline
